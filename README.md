@@ -4,7 +4,7 @@ This repository contains a Solidity smart contract (`Dapp.sol`) for a staking me
 
 ## Contract Overview
 
-The `Dapp` contract inherits from a `MyToken` contract (assumed to be an ERC20-compatible token) and uses an external ERC20 token (`dappToken`) for staking and rewards. It implements the following features:
+The `Dapp` contract inherits from a `UserToken` contract (assumed to be an ERC20-compatible token) and uses an external ERC20 token (`dappToken`) for staking and rewards. It implements the following features:
 
 *   **Tiered Rewards:** Users can deposit tokens into different tiers, each with its own reward rate (in basis points) and lock time (in seconds).
 *   **Whitelisting:** Only whitelisted users can deposit tokens.
